@@ -5,86 +5,122 @@ a {
 }
 
 a:hover {
-  color: #E6E6E6;
-}
-
-.bar-left {
-  border-style: solid none none;
-  border-width: 2px;
-  border-color: #183661;
-  left: 20px;
-  margin: 15px auto 10px;
-  position: relative;
-  width: 5.5%;
-}
-
-.bar-right {
-  border-style: solid none none;
-  border-width: 2px;
-  border-color: #183661;
-  position: relative;
-  right: 20px;
-  width: 5.5%;
+  color: #183661;
 }
 
 body {
+  color: #000;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 1.2rem;
 }
 
-.bottom-cloud {
-  height: 11%;
-  position: absolute;
-  left: 19%;
-  bottom: 54%;
-  width: 8%;
-}
-
-.bottom-container {
-  background-color: #D4837F;
-  margin: 0;
-  padding: 2% 0 1%;
-}
-
-.btn {
-  color: #183661;
-}
-
-.contact-me {
-  padding: 1% 0 4%;
-}
-
-.contact-message {
-  width: 40%;
-  margin: auto auto 55px;
-}
-
-.cpp {
-  float: right;
-  margin: 2.5% 0 auto 25px;
-  width: 25%;
-}
-
-.footer-link {
-  display: inline;
-  line-height: 2;
-  margin-right: 38px;
-}
-
-.footer-logo {
-  width: 1.2%;
+hr {
+  border-style: solid none none;
+  border-width: 2px;
+  border-color: #183661;
+  margin: 0.7% auto;
+  position: relative;
+  width: 5.5%;
 }
 
 h3 {
   color: #183661;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
-.intro {
+p {
+  line-height: 2;
+}
+
+                                  /* hr Styles */
+
+.hr-left {
+  left: 20px;
+}
+
+.hr-right {
+  right: 20px;
+}
+
+                                  /* Headings */
+
+.title {
+  font-family: 'Satisfy', cursive;
+  font-size: 5.625rem;
+}
+
+.subtitle {
+  font-family: 'Bitter', serif;
+  font-size: 2.2rem;
+  line-height: 2;
+}
+
+                                  /* Containers */
+
+.standard-container {
+  background-color: #B8C4CC;
+  padding: 3% 0;
+}
+
+                                  /* Starting Section */
+
+#starting {
+  background-color: #e9fadd;
+  padding: 4% 0;
+  position: relative;
+}
+
+.spaceship {
+  position: absolute;
+  right: 19%;
+  top: 7%;
+  transform: rotate(20deg);
+  width: 7%;
+}
+
+.mountain {
+  height: 28%;
+  width: 38%;
+}
+
+.ufo {
+  position: absolute;
+  left: 19%;
+  bottom: 54%;
+  width: 7%;
+  transform: rotate(-20deg);
+}
+
+                                  /* Intro Section */
+
+#intro .standard-container {
+  padding: 5% 0 3%;
+}
+
+.me {
+  height: 20%;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.bio {
   margin: auto;
-  width: 40%;
+  width: 38%;
+}
+
+                                  /* Skills Section */
+
+#skills .standard-container {
+  padding: 0.5% 0 0.1%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 4.3% auto;
+  text-align: left;
+  width: 55%;
 }
 
 .lens {
@@ -93,68 +129,52 @@ h3 {
   width: 25%;
 }
 
-.middle-container {
-  background-color: #B8C4CC;
-  padding: 5px 0;
+.cpp {
+  float: right;
+  margin: 2.5% 0 auto 25px;
+  width: 25%;
 }
 
-.me {
-  height: 20%;
-  width: 20%;
+                                  /* Contact-Me Section */
+
+#contact-me .standard-container{
+  padding: 1% 0 4%;
 }
 
-.mail {
-  margin-top: 10px;
-  width: 3.5%;
+.contact-text {
+  color: #000;
+  margin: auto auto 55px;
+  width: 40%;
 }
 
-.mountain {
-  height: 28%;
-  width: 38%;
+.envelope {
+  color: #183661;
+  margin-top: 12px;
+  font-size: 2.6rem;
 }
 
-p {
+.envelope:hover {
+  color: #000;
+}
+
+                                  /* Footer Section */
+
+#footer .standard-container{
+  background-color: #D4837F;
+  margin: 0;
+}
+
+.footer-text {
+  display: inline;
   line-height: 2;
+  margin-right: 38px;
 }
 
-.profile {
-  padding: 5% 0 3%;
+.media-link:hover {
+  color: #e9fadd;
 }
 
-.skill-row {
-  line-height: 2;
-  margin: 70px auto;
-  text-align: left;
-  width: 55%;
-}
-
-.subtitle {
-  font-family: 'Bitter', serif;
-  font-size: 2.2rem;
-  margin-bottom: 30px;
-  line-height: 2;
-}
-
-.title {
-  margin: 0 auto;
-  font-family: 'Satisfy', cursive;
-  font-size: 5.625rem;
-}
-
-.top {
-  margin-top: 55px;
-}
-
-.top-container {
-  background-color: #e9fadd;
-  position: relative;
-  padding: 10% 0 4%;
-}
-
-.top-cloud {
-  height: 13%;
-  position: absolute;
-  right: 19%;
-  top: 5%;
-  width: 8%;
+.social-media {
+  width: 1.2%;
+  margin-right: 7px;
 }
